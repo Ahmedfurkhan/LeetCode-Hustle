@@ -1,0 +1,51 @@
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+The problem requires maximizing the sum of `k` largest elements from an array, but with a twist: after extracting the largest element, you must reduce it by one-third and repeat this process. A heap can help efficiently extract and adjust the largest values.
+
+# Approach
+<!-- Describe your approach to solving the problem. -->
+1. Use a max-heap to efficiently get the largest element in each of the `k` iterations. Since Python only provides a min-heap, we simulate a max-heap by negating all values in the list.
+2. For each iteration, pop the largest element (i.e., the smallest in the negated heap), add it to the score, reduce its value by one-third (rounded up), and push it back into the heap.
+3. If the largest element is 1, adding it further has no effect, so the remaining steps are filled with `1`'s and the loop is stopped early.
+
+# Complexity
+- Time complexity:
+<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+  - The time complexity is $$O(k \log n)$$ where `n` is the number of elements in `nums` and `k` is the number of operations. This is because in each of the `k` operations, we extract the maximum element from the heap (which is $$O(\log n)$$) and push a new element into the heap (also $$O(\log n)$$).
+
+- Space complexity:
+<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+  - The space complexity is $$O(n)$$, since the heap will store all the elements of the `nums` list (negated).
+
+# Code
+```python3
+class Solution:
+    def maxKelements(self, nums: List[int], k: int) -> int:
+        # We want to extract the largest element from 'nums' efficiently.
+        # Python's heapq is a min-heap, so we negate the values to simulate a max-heap.
+        heapify(pq := [-x for x in nums])
+
+        # Initialize 'score' to accumulate the sum of the largest elements.
+        score = 0
+
+        # We will perform this operation 'k' times (as specified in the input).
+        for i in range(k):
+            # Pop the largest element (remember, the heap contains negative values, so negate again).
+            x = -heappop(pq)
+
+            # Add the popped element to the score, as it's one of the largest in the current iteration.
+            score += x
+
+            # If the element is 1, we can't reduce it any further.
+            # Therefore, we add the remaining 'k - 1 - i' operations as '1's to the score and stop.
+            if x == 1:
+                score += k - 1 - i
+                break
+
+            # For elements greater than 1, reduce 'x' by approximately one-third and push it back to the heap.
+            # This is done because we want to simulate the diminishing value of the element over time.
+            # The formula (x + 2) // 3 ensures proper rounding when reducing the value.
+            heappush(pq, -((x + 2) // 3))  # Push back the reduced value (negated to maintain the max-heap property).
+        
+        # Return the accumulated score after performing 'k' operations.
+        return score
