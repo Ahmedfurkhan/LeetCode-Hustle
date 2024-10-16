@@ -47,4 +47,8 @@
 |  |
 | ------- |
 | [1304-longest-happy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1304-longest-happy-string) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
