@@ -17,6 +17,7 @@
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0670-maximum-swap) |
 | [1304-longest-happy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1304-longest-happy-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -55,4 +56,8 @@
 | ------- |
 | [0584-find-customer-referee](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0584-find-customer-referee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1908-recyclable-and-low-fat-products) |
+## Math
+|  |
+| ------- |
+| [0670-maximum-swap](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0670-maximum-swap) |
 <!---LeetCode Topics End-->
