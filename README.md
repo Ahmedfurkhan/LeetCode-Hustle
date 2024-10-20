@@ -51,6 +51,7 @@
 ## String
 |  |
 | ------- |
+| [1197-parsing-a-boolean-expression](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1304-longest-happy-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Database
@@ -77,9 +78,14 @@
 ## Recursion
 |  |
 | ------- |
+| [1197-parsing-a-boolean-expression](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Simulation
 |  |
 | ------- |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+## Stack
+|  |
+| ------- |
+| [1197-parsing-a-boolean-expression](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1197-parsing-a-boolean-expression) |
 <!---LeetCode Topics End-->
