@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0001-two-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2350-find-closest-number-to-zero](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2350-find-closest-number-to-zero) |
@@ -59,6 +60,7 @@
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1894-merge-strings-alternately](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1894-merge-strings-alternately) |
@@ -120,5 +122,10 @@
 |  |
 | ------- |
 | [0988-flip-equivalent-binary-trees](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0988-flip-equivalent-binary-trees) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2677-cousins-in-binary-tree-ii) |
+## Trie
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 <!---LeetCode Topics End-->
