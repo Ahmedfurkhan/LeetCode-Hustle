@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0001-two-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -44,6 +45,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0001-two-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
