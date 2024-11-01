@@ -69,6 +69,7 @@
 |  |
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1197-parsing-a-boolean-expression) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1667-find-kth-bit-in-nth-binary-string) |
