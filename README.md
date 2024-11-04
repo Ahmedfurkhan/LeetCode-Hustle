@@ -77,6 +77,7 @@
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1894-merge-strings-alternately](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1894-merge-strings-alternately) |
 | [2580-circular-sentence](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2580-circular-sentence) |
+| [3451-string-compression-iii](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/3451-string-compression-iii) |
 ## Database
 |  |
 | ------- |
