@@ -1,11 +1,21 @@
-from bisect import bisect_left, bisect_right
-
 class Solution:
-    def countFairPairs(self, v, lower, upper):
-        v.sort()
-        ans = 0
-        for i in range(len(v) - 1):
-            low = bisect_left(v, lower - v[i], i + 1)
-            up = bisect_right(v, upper - v[i], i + 1)
-            ans += up - low
-        return ans
+    def countFairPairs(self, nums: List[int], lower: int, upper: int) -> int:
+        nums.sort()
+        return self.lower_bound(nums, upper + 1) - self.lower_bound(nums, lower)
+
+    # Calculate the number of pairs with sum less than `value`.
+    def lower_bound(self, nums: List[int], value: int) -> int:
+        left = 0
+        right = nums.__len__() - 1
+        result = 0
+        while left < right:
+            sum = nums[left] + nums[right]
+            # If sum is less than value, add the size of window to result and move to the
+            # next index.
+            if sum < value:
+                result += right - left
+                left += 1
+            else:
+                # Otherwise, shift the right pointer backwards, until we get a valid window.
+                right -= 1
+        return result
