@@ -1,25 +1,36 @@
 class Solution:
-    def solve(self, n, quantities, item):
-        if item == 0:
-            return False
-        store = 0
-        for product in quantities:
-            store += (product - 1) // item + 1
-            if store > n:
-                return False
-        return True
+    def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
+        
+        def is_possible(val):
+            temp_n = n
 
-    def minimizedMaximum(self, n, quantities):
-        low = 1
-        high = max(quantities)
-        ans = -1
+            for i in quantities:
+                if i <= val:
+                    temp_n -= 1
+                
+                else:
+                    temp_n -= math.ceil(i / val)
+                
+                if temp_n < 0:
+                    return False
+            
+            return True
 
-        while low <= high:
-            mid = (low + high) // 2
-            if self.solve(n, quantities, mid):
-                ans = mid
-                high = mid - 1
+
+        start = 1
+        end = max(quantities)
+
+        res = end
+
+        while start <= end:
+            mid = (start + end) // 2
+            possible = is_possible(mid)
+            
+            if possible:
+                res = min(res, mid)
+                end = mid - 1
+            
             else:
-                low = mid + 1
-
-        return ans
+                start = mid + 1
+        
+        return res
