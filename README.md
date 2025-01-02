@@ -22,6 +22,7 @@
 | [2554-minimum-total-distance-traveled](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -70,6 +71,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1940-maximum-xor-for-each-query](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1940-maximum-xor-for-each-query) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -99,6 +101,7 @@
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1894-merge-strings-alternately](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/1894-merge-strings-alternately) |
 | [2580-circular-sentence](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2580-circular-sentence) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3451-string-compression-iii](https://github.com/Ahmedfurkhan/LeetCode-Hustle/tree/master/3451-string-compression-iii) |
 ## Database
